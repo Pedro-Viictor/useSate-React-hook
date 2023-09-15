@@ -1,0 +1,43 @@
+.gerador {
+    background-color: tan;
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gerador input {
+    background-color: #242424;
+    border: #242424 solid 1px;
+    border-radius: 8px;
+    padding: 5px 5px 5px 5px;
+    width: 200px;
+    color: white;
+}
+
+
+h1 {
+    color: white;
+}
+
+.gerador .botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gerador .btn {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    padding: 10px 5px 10px 5px;
+    cursor: pointer;
+    transition: 0.9s;
+}
+
+.gerador .btn:hover {
+    border: 1px solid red;
+}
